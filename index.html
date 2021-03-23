@@ -15,21 +15,6 @@
         border: 1px solid rgb(255, 255, 255);
       }
 
-      div{
-        /*background-image: "images/chip.jpg";*/
-        padding-left: 0;
-        padding-right: 0;
-        text-align: center
-        /*width: 1024;*/
-      }
-     
-      .pure-checkbox{
-        width: 70px;
-      }
-
-      .micro{
-        width: 80px;
-      }
   </style>
     
     <!-- PURE CSS -->
@@ -57,20 +42,21 @@
     
     </br>
 
-    <div class="pure-u-3">
+    <div class="pure-u-3" style="text-align: center" >
       <h1>Library Generator</h1>
       <amp-img src="images/chip.jpg" alt="chip" height="200" width="400"></amp-img>
       <form class="pure-form">
         <legend>Microcontroladores</legend>
-        <input type="text" list="micro" class="micro">
-        <input type="text" list="pic">
-        <button class="pure-button pure-button-primary">Gerar txt</button>
-        <legend>Perféricos</legend>
-        <label for="aligned-cb1"class="pure-checkbox">
+        <input type="text" list="micro" class="micro" style="width: 80px">
+        <input type="text" list="pic" style="width: 150px">
+        <button class="pure-button pure-button-primary" style="width: 100px">Gerar txt</button>
+        <legend>Periféricos</legend>
+        <div style="width: 400px">
+        <label for="aligned-cb1"class="pure-checkbox" style="width: 340%; align-items: center;">
           <input type="checkbox" id="aligned-cb1" /> PWM</label>
-        <label for="aligned-cb2" class="pure-checkbox">
-          <input type="checkbox" id="aligned-cb2" /> Timer</label>    
-        </br>        
+        <label for="aligned-cb2" class="pure-checkbox" style="width:340%; align-items: center;">
+          <input type="checkbox" id="aligned-cb2" /> Timer</label>
+        </div>       
       </form>
     </br>
     </div>
