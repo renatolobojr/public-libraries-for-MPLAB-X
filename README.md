@@ -33,4 +33,19 @@ In order to use one of them in an AMP HTML page, get the minified CSS file,
 remove any !important or filter if they exist, paste the inlined CSS code 
 into <style amp-custom> inside <head> and replace any <img> with <amp-img> inside <body>.
 
+amp get e jason
+https://stackoverflow.com/questions/56387512/amp-form-action-xhr-post-submission-throwing-json-error-and-no-json-involved
+
+google analitcs e AMP
+https://developers.google.com/analytics/devguides/collection/amp-analytics?hl=pt_br
+
+https://searchwilderness.com/amp-forms/#gref
+
+https://github.com/ampproject/amphtml/issues/9672
+
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON
+
+### file saver
+https://stackoverflow.com/questions/50126062/how-to-use-filesaver-js-to-save-text-files
+https://developers.google.com/web/updates/2011/08/Saving-generated-files-on-the-client-side
 
