@@ -1,0 +1,26 @@
+[
+  {
+    "Marca":"PIC",
+    "Modelo":"12f"
+  },
+  {
+    "Marca":"PIC",
+    "Modelo":"16f"
+  },
+  {
+    "Marca":"PIC",
+    "Modelo":"18f"
+  },
+  {
+    "Marca":"PIC",
+    "Modelo":"AT90"
+  },
+  {
+    "Marca":"AVR",
+    "Modelo":"at80"
+  },
+  {
+    "Marca":"AVR",
+    "Modelo":"atsuper"
+  }  
+]
